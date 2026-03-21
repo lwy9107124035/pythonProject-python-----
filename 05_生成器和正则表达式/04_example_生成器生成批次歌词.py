@@ -11,7 +11,12 @@ def dataset_loader(batch_size):
             yield lines[idx*batch_size: idx*batch_size + batch_size]
 
 
-dl = dataset_loader(8)
+dl = dataset_loader(61)
+print(next(dl))
+print(next(dl))
+print(next(dl))
+print(next(dl))
+print(next(dl))
 print(next(dl))
 print(next(dl))
   
