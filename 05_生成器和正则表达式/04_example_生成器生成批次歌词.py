@@ -13,6 +13,6 @@ def dataset_loader(batch_size):
 
 dl = dataset_loader(8)
 print(next(dl))
-print(next(d1))
+print(next(dl))
   
 
